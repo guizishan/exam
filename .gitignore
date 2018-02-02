@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+################ app ###################
+# dependencies
+/app/node_modules
+# roadhog-api-doc ignore
+/app/src/utils/request-temp.js
+/app/_roadhog-api-doc
+
+# production
+/app/dist
+
+# misc
+/app/.DS_Store
+/app/npm-debug.log*
+/app/yarn-error.log
+
+/coverage
+/app/.idea
+/app/yarn.lock
+/app/package-lock.json
+/app/*bak
+/app/jsconfig.json
+
+################# web ##################
+# dependencies
+/web/node_modules
+# roadhog-api-doc ignore
+/web/src/utils/request-temp.js
+/web/_roadhog-api-doc
+
+# production
+/web/dist
+
+# misc
+/web/.DS_Store
+/web/npm-debug.log*
+/web/yarn-error.log
+
+/coverage
+/web/.idea
+/web/yarn.lock
+/web/package-lock.json
+/web/*bak
+/web/jsconfig.json
+
+################# server ##################
+# dependencies
+/server/node_modules
+# roadhog-api-doc ignore
+/server/src/utils/request-temp.js
+/server/_roadhog-api-doc
+
+# production
+/server/dist
+
+# misc
+/server/.DS_Store
+/server/npm-debug.log*
+/server/yarn-error.log
+
+/coverage
+/server/.idea
+/server/yarn.lock
+/server/package-lock.json
+/server/*bak
+/server/jsconfig.json
